@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Android_Apps_source_codes\Alert\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="D:\Android_Apps_source_codes\Alert\app\src\debug\shaders"/></dataSet></merger>

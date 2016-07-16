@@ -1,5 +1,6 @@
 package com.glowingsoft.alert;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -50,7 +51,7 @@ public class RegistrationActivity extends AppCompatActivity {
 
         // find the radiobutton by returned id
         radioButton = (RadioButton) findViewById(selectedId);
-        String typeString = radioButton.getText().toString();
+        final String typeString = radioButton.getText().toString();
 
         if (typeString.equals("Taker")){
             type = "2";
@@ -61,7 +62,15 @@ public class RegistrationActivity extends AppCompatActivity {
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-                        Toast.makeText(RegistrationActivity.this,"saved",Toast.LENGTH_LONG).show();
+                        Toast.makeText(RegistrationActivity.this,"Registered Successfully!",Toast.LENGTH_LONG).show();
+                        Intent intent = new Intent(RegistrationActivity.this,ProfileActivity.class);
+                        intent.putExtra("id",response);
+                        intent.putExtra("title",accountTitle.getText().toString());
+                        intent.putExtra("name",accountTitle.getText().toString());
+                        intent.putExtra("address",accountTitle.getText().toString());
+                        intent.putExtra("type",type);
+                        startActivity(intent);
+                        finish();
                     }
                 },
                 new Response.ErrorListener() {

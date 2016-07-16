@@ -1,0 +1,6 @@
+CHANGED,D:\Android_Apps_source_codes\Alert\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\glowingsoft\alert\RegistrationActivity$2$override.class
+CHANGED,D:\Android_Apps_source_codes\Alert\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\glowingsoft\alert\RegistrationActivity$3$override.class
+CHANGED,D:\Android_Apps_source_codes\Alert\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\glowingsoft\alert\RegistrationActivity$4$override.class
+CHANGED,D:\Android_Apps_source_codes\Alert\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\glowingsoft\alert\RegistrationActivity$override.class
+CHANGED,D:\Android_Apps_source_codes\Alert\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\glowingsoft\alert\RegistrationActivity$1$override.class
+CHANGED,D:\Android_Apps_source_codes\Alert\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

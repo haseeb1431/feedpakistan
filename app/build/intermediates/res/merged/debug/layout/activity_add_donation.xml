@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.glowingsoft.alert.AddDonation">
+    <TextView
+        android:id="@+id/peopleServedTextView"
+        android:text="Total People Served ?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_below="@id/peopleServedTextView"
+        android:id="@+id/peopleServedET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/peopleServedET"
+        android:id="@+id/donationDescription"
+        android:text="Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/descriptionET"
+        android:layout_below="@id/donationDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Pickup Location"
+        android:layout_below="@id/descriptionET"
+        android:id="@+id/locationTVshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_below="@id/locationTVshow"
+        android:id="@+id/pickupLocationET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/pickupLocationET"
+        android:id="@+id/saveDonationBtn"
+        android:text="Add Donation"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
