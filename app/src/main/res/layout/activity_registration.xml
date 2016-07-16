@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ed5677"
+    android:layout_height="match_parent"
+    tools:context="com.glowingsoft.alert.RegistrationActivity">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Title"
+        android:textSize="@dimen/titlesize"/>
+    <EditText
+        android:id="@+id/titleEt"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="User Name"
+        android:id="@+id/usernameTV"
+        android:textSize="@dimen/titlesize"
+        android:layout_below="@id/titleEt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/usernameET"
+        android:layout_below="@id/usernameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/addressText"
+        android:textSize="@dimen/titlesize"
+        android:layout_below="@id/usernameET"
+        android:text="Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/address"
+        android:layout_below="@id/addressText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_below="@id/address"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        >
+        <RadioButton
+            android:id="@+id/donorRadio"
+            android:text="Donor"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/takerRadio"
+            android:text="Taker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+   <Button
+       android:layout_below="@id/radioGroup"
+       android:layout_centerHorizontal="true"
+       android:text="Save"
+       android:id="@+id/save"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+</RelativeLayout>
