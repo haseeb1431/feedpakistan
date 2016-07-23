@@ -1,9 +1,17 @@
-# Feed Pakistan
-## Tackling food wastage
-According to the UN Food and Agriculture Organisation (FAO), developing countries waste 40 percent food items. Around 1.3 billon tonnes of food is wasted annually all over the world.
+## PROBLEM STATEMENT
+According to the UN Food and Agriculture Organization (FAO), developing countries waste 40 percent food items. Around 1.3 billion tons of food is wasted annually all over the world.
+By trimming waste and diverting food loss we can alleviate hunger, create jobs, combat climate change, conserve natural resources, and cultivate more sustainable communities.
 
-The difference in food consumption of the rich and the poor is troubling - the rich having too much and the poor having none. There is a lot of food wasted on a daily basis at weddings and buffets. Instead of wasting all this food, it could be donated to social welfare organizations that work for the less privileged.
+## FACTS
+Food waste ranks as a top emitter of greenhouse gases estimated at 3.3 billion tons of carbon dioxide released into the atmosphere each year.
+3.5 billion acres of land, 28 percent of the world’s agricultural area, is used annually to produce food that’s never eaten.
+More than 20% of all cultivated land, 30% of forests and 10%of grasslands are undergoing degradation.
 
-Feed Pakistan provides a platform as an enabler to provide communication between different parties i.e. the institutions donating the food and institutions taking the food to feed the needy.
+## WHAT WE DO
+Wasting food means not only money down the drain, but also all of the resources needed to grow and distribute that food in the first place.
+Our mission is to make fresh, nutritious food accessible to everyone regardless of their location or socio-economic status.
 
-In addition to this, a social awareness campaign will also be started to educate the people on the need for this, especially the owners of the hotels/restaurants/bakeries etc. as to how they can prevent the food from being wasted and help the less privileged in the process.
+## HOW IT WORKS
+We believe our platform can end hunger by connecting restaurants and people that have excess food to different neighborhood and charities in dire need of food to feed the underprivileged. This moves nutritious food away from the waste stream and onto the plate of someone in need.
+Hunger is a distribution problem, not a supply problem.
+Together, we can solve it.
